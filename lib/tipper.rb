@@ -8,7 +8,7 @@ class Tipper
   end
 
   def total
-    amount + tax - discount + tip
+    (amount + tax + tip) - discount
   end
 
   private
